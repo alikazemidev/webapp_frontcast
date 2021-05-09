@@ -1,0 +1,69 @@
+main {
+  padding-top: 3rem;
+}
+.backgournd {
+  background: url(../../imgs/bg-image.jpg) center/cover no-repeat;
+  filter: blur(3px);
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  z-index: -1;
+}
+.plan {
+  padding-top: 2rem;
+  width: 60%;
+  margin: 1rem 0;
+  border: 2px solid #1565c0;
+  border-left: none;
+  text-align: right;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.plan a {
+  color: #0d47a1;
+  display: block;
+  padding: 2rem;
+}
+.plan__info {
+  padding: 1rem;
+  border: 1px solid #1e88e5;
+  background: #fff;
+  border-radius: 3px;
+}
+
+#plus {
+  background: #bbdefb;
+  position: relative;
+}
+
+#free {
+  background: #e3f2fd;
+  float: right;
+  border-right: none;
+  border-left: 2px solid #1565c0;
+}
+
+.plan__badge {
+  position: absolute;
+  top: 0rem;
+  right: 0px;
+  width: 12rem;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  background: #1565c0;
+  padding: 0.1rem .5rem;
+  transform: rotateZ(30deg) translateX(3.5rem) translateY(-1rem);
+}
+.clearfix {
+  clear: both;
+}
+
+#premium {
+  background: #1565c0;
+}
+#premium .plan__title {
+  color: white;
+}
